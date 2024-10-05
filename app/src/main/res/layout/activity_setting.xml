@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:paddingTop="25dp">
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:src="@drawable/ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:textColor="@color/header_1"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/settings"
+        app:layout_constraintBottom_toBottomOf="@id/iv_back"
+        app:layout_constraintTop_toTopOf="@id/iv_back" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_back">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tv_language"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="12dp"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="16dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/header_1"
+                android:text="@string/Language"
+                android:textSize="16sp"
+                app:drawableStartCompat="@drawable/ic_language" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#C5CAD4" />
+
+            <TextView
+                android:id="@+id/tv_rate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="12dp"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="16dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/header_1"
+                android:text="@string/rate_us"
+                android:textSize="16sp"
+                app:drawableStartCompat="@drawable/ic_rate" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#C5CAD4" />
+
+            <TextView
+                android:id="@+id/tv_share"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="12dp"
+                android:layout_marginTop="4dp"
+                android:paddingHorizontal="16dp"
+                android:gravity="center_vertical"
+                android:paddingTop="16dp"
+                android:paddingBottom="10dp"
+                android:text="@string/share"
+                android:textColor="@color/header_1"
+                android:textSize="16sp"
+                app:drawableStartCompat="@drawable/ic_share" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#C5CAD4" />
+
+            <TextView
+                android:id="@+id/tv_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="12dp"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="16dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="10dp"
+                android:text="@string/feedback"
+                android:textColor="@color/header_1"
+                android:textSize="16sp"
+                app:drawableStartCompat="@drawable/ic_feedback" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#C5CAD4" />
+
+            <TextView
+                android:id="@+id/tv_policy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:drawablePadding="12dp"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="16dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/header_1"
+                android:text="@string/policy"
+                android:textSize="16sp"
+                app:drawableStartCompat="@drawable/ic_policy" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

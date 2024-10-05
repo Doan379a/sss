@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_background_color">#00000000</color>
+    <color name="default_glow_color">#885BFC</color>
+
+    <color name="color_app">#FF0845</color>
+    <color name="not_selected">#33FF0845</color>
+    <color name="bg">#FFC0CB</color>
+    <color name="text_color">#D0D5DD</color>
+    <color name="gray_200">#EAECF0</color>
+    <color name="red_point">#F04438</color>
+    <color name="bg_app">#FFFFFF</color>
+    <color name="selected_date_color">#FF0000</color>
+    <color name="normal_date_color">#000000</color>
+
+    <color name="purple_200">#565CE3</color>
+    <color name="purple_500">#565CE3</color>
+    <color name="purple_700">#565CE3</color>
+    <color name="teal_200">#565CE3</color>
+    <color name="teal_700">#565CE3</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="text_app">#FF0845</color>
+    <color name="text_app_no_selected">#4B4F58</color>
+    <color name="header_1">#1E232E</color>
+    <color name="header_2">#FF0845</color>
+
+
+</resources>
